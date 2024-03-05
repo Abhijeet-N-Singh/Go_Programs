@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	map1 := map[string]string{
+		"a": "apple",
+		"b": "ball",
+		"c": "cat",
+		"d": "dog",
+		"e": "elephant",
+	}
+	var result int = len(map1)
+	fmt.Print("Length of map : ", result)
+}
